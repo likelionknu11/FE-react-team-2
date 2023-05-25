@@ -32,7 +32,7 @@ body {
 
 header {
   width: 100%;
-  height: 20%;
+  height: 27%;
   background-color: #999;
 }
 
@@ -45,13 +45,13 @@ header img {
 
 nav {
   width: 100%;
-  height: 8%;
-  background-color: #f7f0c0;
+  height: 6%;
+  background-color: #fcf9f4;
   border-bottom: 1px solid #999;
 }
 
 .categories {
-  padding: 10px 50px;
+  padding: 8px 40px;
   width: 60%;
   height: 60%;
   background-color: white;
@@ -63,48 +63,69 @@ nav {
   float: left;
 }
 
+.categories li {
+}
+
 .categories a {
   list-style: none;
   float: left;
   text-decoration: none;
   color: black;
-  padding-right: 100px;
+  padding: 0px 74px;
+  top: -7px;
+  position: relative;
 }
 
 /*nav*/
 
 .main {
   width: 100%;
-  height: 35%;
-  background-color: #f7f0c0;
+  height: 30%;
+  background-color: #fcf9f4;
+  display: flex;
 }
 
-.YeongcheonImg {
+.YeongcheonImgPart {
   padding-bottom: 50px;
+  flex: 1;
 }
 
-.YeongcheonImg img {
+.YeongcheonImgPart img {
   width: 120px;
   height: 50px;
 }
 
-.YeonchoePage {
+.YeongcheonShortcut {
+  position: relative;
+  top: 100px;
+}
+
+.YeonchoenSlogan {
+}
+
+.YeonchoenPageBtn {
   width: 150px;
   height: 50px;
   border-radius: 20px;
   border: none;
+  background-color: white;
+  position: relative;
+  top: 24px;
 }
-
-.YeonchoePage a {
+.YeonchoenPageBtn a {
   text-decoration: none;
   color: black;
 }
+
+/* main */
 
 .Yeongcheon_ins {
   width: 100%;
   height: 25%;
   background-color: #666;
 }
+
+/* Yeongcheon_ins */
 
 footer {
   width: 100%;
@@ -118,3 +139,5 @@ footer img {
   width: 150px;
   height: 70px;
 }
+
+/* footer */
