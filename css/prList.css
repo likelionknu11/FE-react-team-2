@@ -54,3 +54,9 @@ body {
       font-size: 1em;
     }
     
+    .inner {
+      width: 1100px;
+      margin: 0 auto;
+      position: relative;
+      height: 100%;
+    }
