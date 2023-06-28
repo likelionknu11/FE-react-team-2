@@ -1,0 +1,123 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcf9f4;
+    padding: 10px;
+  }
+  
+   .grid {
+    gap: 20px;
+    display: grid;
+    padding: 3rem;
+    grid-template-columns: repeat(1, 1fr);
+  } 
+  
+  .mt-5 {
+    margin-top: 5px;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+    color: #332727;
+  }
+  
+  .text-green-500 {
+    color: #332727;
+  }
+  
+  .mb-5 {
+    margin-bottom: 5px;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .gap-1 {
+    gap: 1px;
+  }
+  
+  .p-5 {
+    padding: 10px;
+    margin-left: 5px;
+  }
+  
+  .rounded-md {
+    border-radius: 0.375rem;
+  }
+  
+  .bg-blue-600 {
+    background-color: #bfd374;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+
+  /* Custom CSS for Input component */
+  
+  /* .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .input-container .input-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container .input-wrapper .password-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .input-container .input-wrapper .password-wrapper input[type="password"] {
+    width: 100%;
+    outline: none;
+    padding: 0.5rem 2rem;
+  }
+  
+  .input-container .input-wrapper .password-wrapper .view-password-button {
+    position: absolute;
+    right: 0;
+  } */
+  
+  /* .input-container .input-wrapper input[type="text"],
+  .input-container .input-wrapper input[type="password"],
+  .input-container .input-wrapper textarea {
+    background-color: #ffffff;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #799b87;
+    border-radius: 0.25rem;
+    width: 100%;
+    color: #421b1b;
+  } */
+  
+  #description {
+    width: 15rem;
+    min-height: 10rem;
+    max-height: 20rem;
+    resize: vertical;
+  }
