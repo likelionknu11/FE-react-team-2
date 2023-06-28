@@ -19,16 +19,6 @@ function Main() {
         </header>
         <div className="main">
           <div className="inner">
-            {/* <div class="YeongcheonImgPart">
-              <img
-                src="../images/Yeongcheon/Yeongcheon3.jpg"
-                alt="Yeongcheon_img01"
-              />
-              <img
-                src="/images/Yeongcheon/Yeongcheon4.jpg"
-                alt="Yeongcheon_img02"
-              />
-            </div> */}
             <div className="YeongcheonShortcut">
               <span className="YeonchoenSlogan">행복한 도시, 푸른 영천</span>
               <br />
@@ -36,16 +26,6 @@ function Main() {
                 <a href="https://www.yc.go.kr/">영천시 바로가기</a>
               </button>
             </div>
-            {/* <div class="YeongcheonImgPart">
-              <img
-                src="./images/Yeongcheon/Yeongcheon5.JPG"
-                alt="Yeongcheon_img03"
-              />
-              <img
-                src="./images/Yeongcheon/Yeongcheon12.jpg"
-                alt="Yeongcheon_img04"
-              />
-            </div> */}
           </div>
         </div>
         {/* 체험 미리보기 이미지 */}
