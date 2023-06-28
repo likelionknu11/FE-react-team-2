@@ -47,63 +47,25 @@ function Main() {
               />
             </div> */}
           </div>
-        </div>{" "}
+        </div>
         {/* 체험 미리보기 이미지 */}
         <div className="Yeongcheon_ins">
           <div className="inner">
-            <div className="pglist">
-              <div className="button-container">
-                <img
-                  src="./images/pin.png"
-                  className="button button1"
-                  onclick="showDetails('Button 1')"
-                  alt="button"
-                ></img>
-                <img
-                  src="./images/pin.png"
-                  className="button button2"
-                  onclick="showDetails('Button 2')"
-                  alt="button"
-                ></img>
-                <img
-                  src="./images/pin.png"
-                  className="button button3"
-                  onclick="showDetails('Button 3')"
-                  alt="button"
-                ></img>
-                <img
-                  src="./images/pin.png"
-                  className="button button4"
-                  onclick="showDetails('Button 4')"
-                  alt="button"
-                ></img>
-                <img
-                  src="./images/pin.png"
-                  className="button button5"
-                  onclick="showDetails('Button 5')"
-                  alt="button"
-                ></img>
-                <img
-                  src="./images/pin.png"
-                  className="button button6"
-                  onclick="showDetails('Button 6')"
-                  alt="button"
-                ></img>
-                <img
-                  src="./images/pin.png"
-                  className="button button7"
-                  onclick="showDetails('Button 7')"
-                  alt="button"
-                ></img>
-              </div>
-
-              <div id="myModal" class="modal">
-                <div className="modal-content">
-                  <span className="close">&times;</span>
-                  <p id="detailText">Some text in the Modal..</p>
-                </div>
-              </div>
-            </div>
+            <img
+              className="cat01"
+              src="images/Yeongcheonins/cat01.png"
+              alt="cat01"
+            />
+            <img
+              className="cat02"
+              src="images/Yeongcheonins/cat02.png"
+              alt="cat02"
+            />
+            <img
+              className="cat03"
+              src="images/Yeongcheonins/cat03.png"
+              alt="cat03"
+            />
           </div>
         </div>
         <Footer></Footer>

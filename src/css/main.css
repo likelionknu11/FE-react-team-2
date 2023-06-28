@@ -60,12 +60,10 @@ nav {
 }
 
 .categories {
-  padding: 8px 0px;
+  padding: 16px 0px;
   width: 1100px;
-  height: 40px;
-  background-color: white;
+  height: 50px;
   margin: 0 auto;
-  border-radius: 50px;
 }
 
 .categories li {
@@ -132,57 +130,6 @@ nav {
   background-color: #666;
 }
 
-.pglist {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.button-container {
-  position: relative;
-  width: 100%;
-  height: 500px;
-}
-
-.button {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-}
-
-.button1 {
-  top: 50px;
-  left: 150px;
-}
-.button2 {
-  top: 70px;
-  left: 520px;
-}
-.button3 {
-  top: 120px;
-  left: 370px;
-}
-.button4 {
-  top: 160px;
-  left: 130px;
-}
-.button5 {
-  top: 190px;
-  left: 800px;
-}
-.button6 {
-  top: 280px;
-  left: 450px;
-}
-.button7 {
-  top: 390px;
-  left: 250px;
-}
-
-.button:hover {
-  background-color: #4caf50; /* Green */
-  color: white;
-}
-
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -219,6 +166,11 @@ nav {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.Yeongcheon_ins img {
+  width: 25%;
+  height: 30%;
 }
 
 /* Yeongcheon_ins */
