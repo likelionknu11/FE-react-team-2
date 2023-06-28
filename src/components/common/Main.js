@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "../../css/main.css";
 import { useState } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function Main() {
   return (
@@ -107,68 +109,6 @@ function Main() {
         <Footer></Footer>
       </div>
     </div>
-  );
-}
-
-function Header() {
-  return (
-    <div className="categories">
-      <div className="inner">
-        <ul>
-          <a href="./programlist.html">
-            <li>영천시 소개</li>
-          </a>
-          <a href="">
-            <li>프로그램 소개</li>
-          </a>
-          <a href="./index2.html">
-            <li>체험 예약</li>
-          </a>
-          <a href="">
-            <li>게시판</li>
-          </a>
-        </ul>
-      </div>
-    </div>
-  );
-}
-
-function Footer() {
-  return (
-    <footer>
-      <div className="inner">
-        <div className="ft-logo">
-          <a href="https://www.yc.go.kr/">
-            <img src="./images/Yeongcheon_logo.png" alt="Yeongcheon_logo" />
-          </a>
-          <p className="copyright">ⓒ 2023 Team. All Rights Reserved.</p>
-        </div>
-        <div className="team-int">
-          {/*제작 팀원 */}
-          <div className="member">
-            <p>원도연 dyw7179@gmail.com</p>
-            <p>양은지 yeeeee0417@gmail.com</p>
-            <p>김재연 getsoss@gmail.com</p>
-            <p>이서현 uimi3606@gmail.com</p>
-          </div>
-        </div>
-        <div className="sns">
-          {/*영천시 sns */}
-          <a href="https://www.instagram.com/yeongcheonsi/">
-            <img src="./images/footer/insta.png" alt="" />
-          </a>
-          <a href="https://www.youtube.com/@YeongCheonSi">
-            <img src="./images/footer/youtube.png" alt="" />
-          </a>
-          <a href="https://www.facebook.com/ycstar01000">
-            <img src="./images/footer/facebook.png" alt="" />
-          </a>
-          <a href="https://blog.naver.com/yeongcheonsi">
-            <img src="./images/footer/blog.png" alt="" />
-          </a>
-        </div>
-      </div>
-    </footer>
   );
 }
 
