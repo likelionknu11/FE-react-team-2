@@ -13,7 +13,7 @@ function Header() {
           <Link to="/pr-list">
             <li>프로그램 목록</li>
           </Link>
-          <Link to="/booking">
+          <Link to="/BookingPage">
             <li>체험 예약</li>
           </Link>
           <Link to="/another-path">

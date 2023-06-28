@@ -1,10 +1,10 @@
 import { DetailPage } from './Booking/DetailPage'
-import { DPTab } from './Booking/components/DPTab'
-import { BookingCal } from './Booking/components/bookingCal'
+import { DPTab } from './Booking/DPTab'
+import { BookingCal } from './Booking/bookingCal'
 import './Booking/css/DetailPage.css';
 
 
-function App() {
+function BookingPage() {
   return (
     <div>
       <div className='container'>
@@ -21,7 +21,7 @@ function App() {
   )
 }
 
-export default App
+export default BookingPage;
 
 // import { Form } from './Booking/Form'
 // import './Booking/css/Form.css';
