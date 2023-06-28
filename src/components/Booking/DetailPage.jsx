@@ -1,7 +1,7 @@
 import React from 'react';
 import Figure from 'react-bootstrap/Figure';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/DetailPage.css';
+import '../../css/DetailPage.css';
 
 
 
