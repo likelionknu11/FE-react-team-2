@@ -7,11 +7,11 @@ function Header() {
     <div className="categories">
       <div className="inner">
         <ul>
-          <Link to="/pr-list">
+          <Link to="/some-path">
             <li>영천시 소개</li>
           </Link>
-          <Link to="/some-path">
-            <li>프로그램 소개</li>
+          <Link to="/pr-list">
+            <li>프로그램 목록</li>
           </Link>
           <Link to="/booking">
             <li>체험 예약</li>
