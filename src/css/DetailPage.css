@@ -1,0 +1,142 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+* {font-family: spoqaHanSansNeo;}
+#root {
+  height: 100%;
+  width: 80%;
+
+}
+
+.container {
+    display: flex;
+    background-color: #fcf9f4;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100%;
+  }
+
+  h2 {
+    font-weight: 500;
+  }
+  
+
+  
+  /* DetailPage.jsx */
+ 
+  .detail-page {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .program {
+    display: flex;
+    
+  }
+
+  .program-img {
+    margin-right: 20px;
+  }
+  
+  .program-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .program-caption {
+    margin-right: 1rem;
+  }
+  
+  /* DetailPage-Tab.jsx*/
+
+  .tab {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tab-page {
+    background-color: #fcf9f4;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 50px;
+
+  }
+
+  /*calculate*/
+  .calendar-btn {
+    /* color:#FFF; */
+    border-radius: 2px;
+    text-align: center;
+    /* background:#00AE68; */
+
+  }
+ .timeBtn {
+    width: 60px;
+    height: 40px;
+    padding: 0;
+    margin: 10px 10px 10px 0;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    color: #FFF;
+    transition: all 0.2s ;
+    background-color: #bfd374;
+    cursor: pointer;
+    border-radius: 0.375rem;
+    border: none;
+ }
+
+    .timeBtn:hover {
+        background: #799b87; 
+        color:#FFF ;
+        font-size: 14px;
+    }
+
+    .calendar{
+    background-color: #fcf9f4;
+    padding: 20px;
+    border-radius: 10px;
+    position: sticky; /* 수정: 고정 위치 */
+    top: 20px; /* 수정: 원하는 위치로 조정 */
+    width: 300px; /* 수정: 필요한 너비로 조정 */
+    margin-left: 200px; /* 수정: 좌측 여백 설정 */
+  }
+  
+  .calendar h2 {
+    color: #799b87;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-btn {
+    margin-top: 10px;
+  }
+  
+  .bookingBtn {
+    background-color: #799b87;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ;
+    width: 240px;
+  }
+  
+    .bookingBtn:disabled {
+      background-color: #bfd374;
+      cursor: not-allowed;
+      width: 240px;
+    }
+
