@@ -67,21 +67,72 @@ function Main() {
               alt="background04"
             /> */}
 
-            <img //포도
-              className="localProduct05"
-              src="images/Yeongcheonins/localProduct05.png"
-              alt="localProduct05"
-            />
-            <img //포도
-              className="localProduct08"
-              src="images/Yeongcheonins/localProduct08.png"
-              alt="localProduct08"
-            />
-            <img //와인
-              className="localProduct16"
-              src="images/Yeongcheonins/localProduct16.png"
-              alt="localProduct16"
-            />
+            <div className="grapes">
+              <img //포도
+                className="grapes1"
+                src="images/Yeongcheonins/localProduct05.png"
+                alt="localProduct05"
+              />
+              <img //포도
+                className="grapes2"
+                src="images/Yeongcheonins/localProduct08.png"
+                alt="localProduct08"
+              />
+              <img //와인
+                className="grapes3"
+                src="images/Yeongcheonins/localProduct16.png"
+                alt="localProduct16"
+              />
+            </div>
+
+            <div className="apple">
+              <img //사과
+                className="apple1"
+                src="images/Yeongcheonins/localProduct10.png"
+                alt="localProduct10"
+              />
+              <img //사과
+                className="apple2"
+                src="images/Yeongcheonins/localProduct11.png"
+                alt="localProduct11"
+              />
+              <img //사과
+                className="apple3"
+                src="images/Yeongcheonins/localProduct12.png"
+                alt="localProduct12"
+              />
+              <img //사과
+                className="apple4"
+                src="images/Yeongcheonins/localProduct17.png"
+                alt="localProduct17"
+              />
+            </div>
+
+            <div className="horse">
+              <img //승마
+                className="horse1"
+                src="images/Yeongcheonins/localProduct02.png"
+                alt="localProduct02"
+              />
+              <img //승마
+                className="horse2"
+                src="images/Yeongcheonins/localProduct03.png"
+                alt="localProduct03"
+              />
+            </div>
+
+            <div className="medicine">
+              <img //힌약
+                className="medicine1"
+                src="images/Yeongcheonins/localProduct19.png"
+                alt="localProduct19"
+              />
+              <img //힌약
+                className="medicine2"
+                src="images/Yeongcheonins/localProduct20.png"
+                alt="localProduct20"
+              />
+            </div>
           </div>
         </div>
         <Footer></Footer>

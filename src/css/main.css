@@ -139,11 +139,99 @@ nav {
   background-position-y: -575px;
 }
 
-.localProduct05,
-.localProduct08,
-.localProduct16 {
+.Yeongcheon_ins img {
+  width: 115px;
+  height: 110px;
+  position: relative;
+}
+
+.Yeongcheon_ins img:hover {
+  width: 130px;
+  height: 125px;
+}
+
+.grapes {
   width: 100px;
   height: 100px;
+  top: 60px;
+  right: -100px;
+}
+
+.grapes1 {
+  top: 80px;
+  right: -150px;
+}
+
+.grapes2 {
+  top: 80px;
+  right: -150px;
+}
+
+.grapes3 {
+  top: -90px;
+  right: -280px;
+}
+
+.apple {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -100px;
+  right: -550px;
+}
+
+.apple1 {
+  top: 0px;
+  right: 40px;
+}
+
+.apple2 {
+  top: 10px;
+  right: 40px;
+}
+
+.apple3 {
+  top: -160px;
+  right: -80px;
+}
+
+.apple4 {
+  top: -150px;
+  right: -80px;
+}
+
+.horse {
+  width: 100px;
+  height: 100px;
+  top: 60px;
+  right: -300px;
+}
+
+.horse1 {
+  top: 150px;
+  right: -300px;
+}
+
+.horse2 {
+  top: 40px;
+  right: -420px;
+}
+
+.medicine {
+  width: 100px;
+  height: 100px;
+  top: 60px;
+  right: -200px;
+}
+
+.medicine1 {
+  top: 40px;
+  right: -750px;
+}
+
+.medicine2 {
+  top: -100px;
+  right: -880px;
 }
 
 /* The Modal (background) */
@@ -182,11 +270,6 @@ nav {
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
-
-.Yeongcheon_ins img {
-  width: 25%;
-  height: 30%;
 }
 
 /* Yeongcheon_ins */
