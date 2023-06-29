@@ -1,13 +1,15 @@
 import React from "react";
-// import '../../css/PrList.css';
+import '../../css/PrList.css';
 import ExperienceItem from "./ExperienceItem";
+import Header from "../common/Header"; // 상대 경로에 따라 경로가 달라질 수 있습니다.
+
 
 function PrList() {
   const experiences = [
     {
       imageUrl: "images/포도 고화질.webp",
       title: "포도농장 클래스",
-      price: "20,000원",
+      price: "25,000원",
       alt: "Experience 1",
     },
     {
@@ -63,6 +65,7 @@ function PrList() {
   return (
     <div className="inner">
       <div className="experience-list">
+      <Header /> {/* 헤더 컴포넌트를 여기에 추가합니다. */}
         {experiences.map((experience, index) => (
           <ExperienceItem
             key={index}
