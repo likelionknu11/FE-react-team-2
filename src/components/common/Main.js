@@ -11,10 +11,10 @@ function Main() {
       <div className="background">
         <header>
           <div className="inner">
-            <img
+            {/* <img
               src="images/Yeongcheon/Yeongcheon2.jpg"
               alt="main_header_img"
-            />
+            /> */}
           </div>
         </header>
         <div className="main">
