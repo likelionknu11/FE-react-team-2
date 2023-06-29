@@ -13,18 +13,18 @@ export const DetailPage = () => {
               width={200}
               height={300}
               alt="300x400"
-              src="./pic1.png"
+              src="./포도 고화질.webp"
             />
           </div>
           <div className="program-info">
             <div className="program-title">
-              <h2>프로그램명1</h2>
+              <h2>포도농장 클래스</h2>
             </div>
             <div className="program-sub">
-              프로그램명: 1 <br />
+              프로그램명: 포도농장 클래스 <br />
               기간: 상시 <br />
-              체험비: 1 <br />
-              최소인원: 1 <br />
+              체험비: 25,000 <br />
+              최소인원: 2 <br />
             </div>
             <div className="program-caption">
               <Figure.Caption>
