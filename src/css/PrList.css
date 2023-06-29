@@ -1,44 +1,14 @@
-body {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
-header,
-footer {
-  text-align: center;
-  padding: 20px 0;
-  background-color: #ffffff;
-}
-
-header h1,
-footer p {
-  margin: 0;
-}
-
-nav {
-  background-color: #24be64;
-  color: #fff;
-  padding: 10px 0;
-  margin-bottom: 20px;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
 .experience-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1em;
-  padding: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-gap: 1em;
+  padding: 5em; */
   box-sizing: border-box;
+}
+.experience-list > div {
+  flex: 1 0 30%; 
+  margin: 0.5em;
 }
 
 .experience-item {

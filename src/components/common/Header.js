@@ -16,8 +16,8 @@ function Header() {
           <Link to="/BookingPage">
             <li>체험 예약</li>
           </Link>
-          <Link to="/another-path">
-            <li>게시판</li>
+          <Link to="/">
+            <li>홈</li>
           </Link>
         </ul>
       </div>
