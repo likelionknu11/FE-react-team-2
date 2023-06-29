@@ -127,7 +127,23 @@ nav {
 .Yeongcheon_ins {
   width: 100%;
   height: 500px;
-  background-color: #666;
+  /* background-color: #666; */
+  background-color: #fcf9f4;
+}
+
+.Yeongcheon_ins .inner {
+  background-image: url(/public/images/YeongcheonIns/background06.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position-x: -230px;
+  background-position-y: -575px;
+}
+
+.localProduct05,
+.localProduct08,
+.localProduct16 {
+  width: 100px;
+  height: 100px;
 }
 
 /* The Modal (background) */
@@ -178,7 +194,7 @@ nav {
 footer {
   width: 100%;
   height: 200px;
-  background-color: #555;
+  background-color: #bfd374;
   box-sizing: border-box;
   padding: 10px 30px;
 }
